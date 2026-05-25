@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Josip Djolo The Times App</string>
+    <string name="network_error_message">Error</string>
+    <string name="home_screen_title">Top Users</string>
+</resources>
