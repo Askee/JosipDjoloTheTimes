@@ -52,13 +52,15 @@ This implementation has, in addition to the task itself, also introduced:
 * Skeleton UI for loading
 * Persistance achieved in two ways: DataStore and Room, one of which is surplus to requirements but a good demonstration of clean architecture's flexibility
 
-Everything has been developed with no AI help.
+Project implements clean architecture principles and the MVI pattern. Everything has been developed with no AI help.
 
 ## Missing features
 
 This implementation has, in interest of time, not covered everything with tests. Author has tried to demonstrate various kinds of tests, but not spend too much time covering everything as it's often trivial to just expand on what's already implemented. Notably what is missing as an aspect of testing are mapper tests and ViewModel tests.
 
 Additionaly, the UI satisfies the requirements but colour palette could've been prettier and more focused on contrast and similar issues.
+
+Project has not been modularised just due to its current size, in order to save time. File structure could also be improved.
 
 Lastly, there are some minor TODOs left in the code, not concerned with functionality but rather code-style and similar.
 
