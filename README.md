@@ -52,6 +52,8 @@ This implementation has, in addition to the task itself, also introduced:
 * Skeleton UI for loading
 * Persistance achieved in two ways: DataStore and Room, one of which is surplus to requirements but a good demonstration of clean architecture's flexibility
 
+Everything has been developed with no AI help.
+
 ## Missing features
 
 This implementation has, in interest of time, not covered everything with tests. Author has tried to demonstrate various kinds of tests, but not spend too much time covering everything as it's often trivial to just expand on what's already implemented. Notably what is missing as an aspect of testing are mapper tests and ViewModel tests.
@@ -73,7 +75,7 @@ As mentioned, I've introduced three libraries specifically for purposes of Snaps
 * [Paparazzi by CashApp](https://github.com/cashapp/paparazzi) - a library to render application screens without a physical device or emulator, and generate snapshot tests
 * [TestParameterInjector by Google](https://github.com/google/TestParameterInjector) - A JUnit4 and JUnit5 parameterized test runner
 
- ## The concept
+## The concept
 
  The way Snapshot Tests work is:
 * We've created the initial snapshots, i.e. golden values, recorded as images and hosted on Git
